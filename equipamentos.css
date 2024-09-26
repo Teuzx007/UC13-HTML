@@ -10,7 +10,7 @@ body {
     padding: 20px;
 }
 
-.nome {
+.nome ,h1{
     color: #fff;
 }
 
