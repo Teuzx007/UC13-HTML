@@ -10,7 +10,7 @@ body {
     padding: 20px;
 }
 
-header{
+.nome {
     color: #fff;
 }
 
@@ -31,7 +31,7 @@ h1 {
 }
 
 .produto {
-    background-color: #fff;
+    background-color: #aaaa;
     border-radius: 8px;
     padding: 20px;
     text-align: center;
