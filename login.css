@@ -1,0 +1,123 @@
+body{
+    color: aliceblue;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.171);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+    color: black;
+}
+
+h2{
+    color: black;
+}
+
+    header{
+        background-color: blue;
+        color: white;
+        padding: 1px;
+        height: 85px;
+    }
+    img{
+        position: relative;
+        right: 20vh;
+        top: -10vh;
+        left: vh;
+    }
+
+    nav ul {
+    list-style: none; 
+    margin: 10;
+    padding: 10;
+    display: flex; 
+    justify-content: center;
+    }
+
+nav li {
+    margin: 0 10px; 
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px 70px;
+    border-radius: 5px;
+    color: black;
+}
+
+
+nav ,a:hover  {
+    background-color: #fabe1b;
+    padding: 1px;
+    height: 45px;
+
+}
+
+nav a:hover {
+    background-color: #0602ff;
+    color: #fff;
+}
+
+.login-container {
+    width: 300px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.login-container h1 {
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 24px;
+
+}
+
+.login-container label {
+    margin: 8px 0 4px;
+    display: block;
+    font-weight: bold;
+
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background: #5cb85c;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background: #4cae4c;
+}
+
+.login-container .forgot-password {
+    text-align: center;
+    display: block;
+    margin-top: 12px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-container .forgot-password:hover {
+    text-decoration: underline;
+}
+

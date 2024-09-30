@@ -5,63 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calçados</title>
 
-<style>
-
-body{
-    color: aliceblue;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    background-color: rgba(0, 0, 0, 0.171);
-}
-
-
-    header{
-        background-color: blue;
-        color: white;
-        padding: 1px;
-        height: 85px;
-    }
-    img{
-        position: relative;
-        right: 20vh;
-        top: -10vh;
-        left: vh;
-    }
-
-    nav ul {
-    list-style: none; 
-    margin: 10;
-    padding: 10;
-    display: flex; 
-    justify-content: center;
-    }
-
-nav li {
-    margin: 0 10px; 
-}
-
-nav a {
-    text-decoration: none;
-    padding: 10px 70px;
-    border-radius: 5px;
-    color: black;
-}
-
-
-nav ,a:hover  {
-    background-color: #fabe1b;
-    padding: 1px;
-    height: 45px;
-
-}
-
-nav a:hover {
-    background-color: #0602ff;
-    color: #fff;
-}
-
-</style>
+    <link rel="stylesheet" href="calcados.css">
 
 </head>
 <body>
@@ -74,14 +18,41 @@ nav a:hover {
     <nav>
         <ul>
             <li><a href="index.html">Tela principal</a></li>
-            <li><a href="Telaequipamentos.html">Equipamentos</a></li>
-            <li><a href="RoupasMasc.html">Roupas Masculinas</a></li>
-            <li><a href="RoupasFem.html">Roupas Femininas</a></li>
+            <li><a href="equipamentos.html">Equipamentos</a></li>
             <li><a href="Calcados.html">Calçados</a></li>
             <li><a href="CamisaTorcedor.html">Camisas de Torcedor</a></li>
-            <li><a href="BolasBasquete.html">Bolas de Basquete</a></li>
+            <li><a href="login.html">Login</a></li>
         </ul>
     </nav>
+
+    <div id="ptd">
+        <h2>Produtos</h2>
+    </div>
+    
+        <div class="container">
+            <div class="product-grid">
+    
+                <div class="produto">
+                    <img  src="img/tenis-basquete-nike-lebron-witness-7-masculino-081d6ee09cf3c979683634224006ba78.jpeg" alt="Produto 1">
+                    <h2>Tênis de basquete Nike Lebron Witness</h2>
+                    <p>R$ 630,00</p>
+                </div>
+    
+    
+                <div class="produto">
+                    <img src="img/tenis2.jpg" alt="Produto 2">
+                    <h2>Tênis de BAsquete Rick and Morty</h2>
+                    <p>R$ 599,00</p>
+                </div>
+    
+                <div class="produto">
+                    <img src="img/tenis3.jpg".jpg alt="Produto 3">
+                    <h2>Tênis de basquete Rick and Morty</h2>
+                    <p>R$ 480,00</p>
+                </div>
+    
+            </div>
+        </div>
 
 </body>
 </html>

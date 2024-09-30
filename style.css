@@ -1,0 +1,154 @@
+body{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.226);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+    header{
+        background-color: blue;
+        color: white;
+        padding: 1px;
+        height: 85px;
+    }
+    img{
+        position: relative;
+        right: 19vh;
+        top: -10vh;
+        left: vh;
+    }
+
+    nav ul {
+    list-style: none;
+    margin: 10;
+    padding: 11;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 1vh;
+    }
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 11px 70px;
+    border-radius: 5px;
+    color: black;
+}
+
+
+nav ,a:hover  {
+    background-color: #fabe1b;
+    padding: 1px;
+    height: 45px;
+
+}
+
+nav a:hover {
+    background-color: #0602ff;
+    color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    color: #fff;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container ,h1{
+    text-align: center;
+    margin-bottom: 40px;
+    
+
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.produto {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+
+.produto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    position: relative;
+    left: 5px;
+    top: 1vh;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+button{
+    background-color: #0602ff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+.produto h2 {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.produto p {
+    font-size: 16px;
+    color: #555;
+}
+
+.produto:hover {
+    transform: translateY(-10px);
+}
+
+.produto,img{
+    position: relative
+
+}
+
+h2{
+    color: black;
+}
+
+
+
+#letreiro ,h1{
+    color: #fff;
+    text-decoration: #fff;
+    position: relative;
+}
+
+
